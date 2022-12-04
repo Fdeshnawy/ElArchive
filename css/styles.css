@@ -1,0 +1,1104 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    --greyxColor:slategrey;
+    --mainxColor:#3672c1;
+    --registerxColor: #b3b3b3;
+    scroll-behavior: smooth;
+
+}
+
+/* START nav bar */
+
+#register{
+    margin: 1% 2%;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    width: 50%;
+}
+#register a{
+    color: var(--registerxColor);
+    text-decoration: none;
+    font-size: 14px;
+    padding: 1%;   
+}
+#register a:first-child
+{
+    padding: 12px; 
+    border-radius: 0 0 21px 21px;
+    background-color: #89CFF0;
+}
+
+#register a:hover{
+    color: black;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+}
+header nav img{
+    width: 200px;
+}
+header nav .nav-dir{
+    display: flex;
+    flex-direction: row-reverse;
+
+}
+header nav{
+  
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+
+}
+
+.mainLinks li a{
+
+    padding: 0 22px !important;
+    color: var(--mainxColor) !important;
+    font-size: 18px;
+
+}
+
+/* END nav bar */
+
+/* START Layout Section */
+
+#Layout{
+    background-image: url(../images/paper.jpg);
+    height: 100vh;
+    background-size: cover;
+}
+
+#Layout .layoutSection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#Layout .layoutSection h1{
+    background-color: cornflowerblue;
+    padding: 80px 55px;
+    color: white;
+    border-radius: 2px;
+    opacity: 0.9;
+    margin: 97px;
+    line-height: 1.3;
+}
+
+
+/* END Layout Section */
+
+
+/* START icons Section */
+
+#threeIcons{
+   
+   position: relative;
+   padding:0 8%;
+}
+
+#threeIcons .iconSection{
+
+    text-align: center;
+    color: white;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -100px;
+ 
+}
+#threeIcons .iconSection .card{
+
+    width: 30%;
+    margin: .5%;
+    
+}
+#threeIcons .iconSection .one {
+    background-color: #002D62;
+    border-radius: 3%;
+    height: 346px;
+    padding-top: 100px;
+    width: 300px;
+   
+}
+#threeIcons .iconSection .two {
+    background-color: #0066b2;;
+    border-radius: 3%;
+    height: 346px;
+    padding-top: 100px;
+    width: 300px;
+}
+#threeIcons .iconSection .three {
+    background-color: #4B9CD3;
+    border-radius: 3%;
+    height: 346px;
+    padding-top: 100px;
+    width: 300px;
+   
+}
+#threeIcons .iconSection h3{
+    padding-top: 25px;
+}
+
+/* END icons Section */
+/* START Carousel Section */
+
+
+#carouselExampleIndicators {
+    background-image: url(../images/carousel.png);
+    background-size: cover;
+
+  }
+
+  .carousel-item {
+    width: 100%;
+    height: 355px;
+  }
+
+  .carasoul-head {
+    padding-bottom: 70px;
+    text-align: center;
+    color: white;
+
+  }
+  
+ 
+
+/* END Carousel Section */
+
+/* START Responsive Section */
+.responsiveSection{
+    padding: 0 7%;
+    margin-top: -100px;
+}
+
+#responsive-web .resp-img img{
+    width: 100%;
+    margin-top: -66px;
+}
+
+#responsive-web .resp-text {
+    color: var(--greyxColor);
+}
+/* END Responsive Section */
+
+/* START Easy web Section */
+
+
+#easy-web {
+    color: white;
+    position: relative;
+    margin-top: 5%;
+
+  }
+  
+  .bg-gray-lighter {
+    background-color: #004687 !important;
+  }
+  
+  .o_stripe {
+    background-color: #F8F9FA;
+    box-shadow: inset 0 0 0 1px rgb(0 0 0 / 5%);
+    position: absolute;
+    top: 84px;
+    left: 0;
+    bottom: -50px;
+    right: 0;
+
+  }
+  
+  .o_skew_sm {
+    transform: skewY(-6deg) scaleY(1) translateY(0%);
+    transform-origin: 0 50%;
+  }
+  
+  .easy-img {
+    z-index: 1;
+  }
+  .easy-img img{
+      width: 100%;
+  }
+  .easy-txt {
+    z-index: 1;
+
+  }
+  
+
+
+
+/* END Easy web Section */
+
+
+/* ##########################PAGE TWO WHY ELARCHIVE####################33 */
+
+/* START REASONS */
+
+#Reasons{
+margin: 10% 0;
+
+}
+#Reasons .reasonSection {
+  background-image: url(../images/solution.png);
+  background-size: cover;
+  height: 50vh;
+  width: auto;
+}
+#Reasons .reasonSection .reas-txt{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  height: 50vh;
+  width: 676px;
+  color: white;
+  padding-right: 8%;
+  padding-top: 3%; 
+}
+
+#Reasons .reasonSection .reas-txt{
+  font-size: 1.5rem;
+}
+
+#resons-features {
+  
+  text-align: center;
+  padding: 0 10%;
+}
+
+.icons-feat h4 {
+  padding-top: 30px;
+  color: gray;
+}
+
+.feat-reas {
+  border: 3px #41cfe7 solid;
+  border-radius: 100%;
+  padding: 22px;
+  color: white;
+  background: #41cfe7;
+}
+
+.feat-reas:hover {
+  background-color: white;
+  color: #41cfe7;
+  transition: color .5s;
+}
+
+
+#specification {
+  background-color: #65c7d0;
+}
+
+.spec-img {
+  transform: scaleX(-1) !important;
+  margin-top: -132px !important;
+}
+
+.spec-txt {
+  padding-top: 1%;
+  color: #12455e;
+}
+
+.spec-txt p {
+  font-size: 1.4rem;
+}
+
+#options {
+  background-color: #65c7d0;
+}
+
+.opt-icon i {
+  display: flex;
+  float: right;
+  padding-right: 20px;
+  padding-left: 26px;
+  color: white;
+}
+
+.frame {
+  padding-top: 1%;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.opt-icon p {
+  padding-top: 5px;
+  padding-right: 70px;
+  color: #12455e;
+}
+
+.opt-icon h4 {
+  color: #12455e;
+  font-weight: 600;
+}
+
+.otherFrame {
+  padding: 0 10%;
+}
+
+.opt-txt {
+  padding-right: 167px !important;
+  color: white;
+  padding-bottom: 20px;
+}
+
+.un:hover i {
+  animation: hithere 1s ease;
+}
+
+.deux:hover i {
+  animation: hithere 1s ease;
+}
+
+.trois:hover i {
+  animation: hithere 1s ease;
+}
+
+.quatre:hover i {
+  animation: hithere 1s ease;
+}
+
+.cinq:hover i {
+  animation: hithere 1s ease;
+}
+
+.six:hover i {
+  animation: hithere 1s ease;
+}
+
+@keyframes hithere {
+  30% {
+    transform: scale(1.2);
+  }
+
+  40%, 60% {
+    transform: rotate(-20deg) scale(1.2);
+  }
+
+  50% {
+    transform: rotate(20deg) scale(1.2);
+  }
+
+  70% {
+    transform: rotate(0deg) scale(1.2);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+
+/* END REASONS */
+
+
+/* ########################## END PAGE TWO WHY ELARCHIVE####################33 */
+/* ########################## START PAGE THREE FEATURES ELARCHIVE####################33 */
+
+/* START FEATURES  */
+
+
+
+#features{
+  padding: 6% 0;
+
+}
+#features .features-bg{
+  background-image: url(../images/userss.png);
+  background-size: cover;
+  z-index: -1;
+  background-color: cornflowerblue;
+  height: 50vh;
+
+}
+
+#features .features-bg h2{
+      height: 50vh;
+      text-align: center;
+      color: white;
+      padding: 20px;
+      font-size: 35px;
+      letter-spacing: 1px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+#features .grid-features
+{
+  margin: -150px 94px 80px;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-template-rows: repeat(2,1fr);
+  grid-gap: 40px;
+}
+
+#features .features-temp{
+background-color: white;
+height: 300px;
+box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+padding: 50px;
+text-align: center;
+color: slategray;
+border-radius: 2px;
+}
+
+#features .features-temp i{
+  padding-bottom: 15px;
+}
+
+
+#content {
+  padding: 0 10%;
+  margin-top: -85px;
+  color: slategray;
+}
+
+.feat-content i {
+  display: flex;
+  float: right;
+  margin-right: 0 !important;
+  padding-top: 1px;
+}
+
+.feat-content h3 {
+  padding-right: 63px;
+}
+
+.feat-content p {
+  padding-right: 63px;
+  font-size: 20px;
+}
+
+.content-info1 {
+  border: 2px solid slategray;
+  /* margin-top: 52px; */
+  margin-bottom: 20px;
+  height: 257px;
+  width: 572px !important;
+}
+
+.round {
+  padding-top: 40px;
+}
+
+.box-bg {
+  background-color: aliceblue;
+
+}
+
+#finding {
+  padding: 8% 10% 0%;
+  margin-top: -215px;
+  color: slategray;
+}
+.unordered-list {
+  padding-right: 88px;
+  font-size: 18px;
+  }
+
+  .content-tools {
+    border: 2px solid slategray;
+    margin-bottom: 20px;
+  }
+
+  .feat-content img{
+    max-width: 100%;
+  }
+
+/* END FEATURES  */
+
+/* ########################## END PAGE THREE FEATURES ELARCHIVE#################### */
+/* ########################## Start PAGE FOUR Solutions ELARCHIVE#################### */
+
+#solu{
+  background-color: cornflowerblue;
+  height: 80vh;
+  padding: 8% 5%;
+
+  }
+
+  .sol-maintxt{
+    color: white;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+  }
+  .sol-maintxt p{
+    font-size: 25px;
+  }
+  
+  
+.grid-two{
+
+  margin-top: -220px;
+
+}
+
+
+.first{
+  background-image: url(../images/17.png);
+background-size: contain;
+margin: 12px;
+height: 300px;
+    width: 355px;
+}
+
+.imgsol{
+  background-image: url(../images/17.png);
+background-size: cover;
+margin: 12px;
+height: 360px;
+ width: 355px;
+}
+
+
+.second{
+
+  transform: scaleX(-1);
+}
+.third{
+    background-image: url(../images/20.png);
+  background-size: cover;
+  margin: 12px;
+  height: 360px;
+      width: 355px;
+}
+
+.fourth{
+    background-image: url(../images/19.png);
+  background-size: cover;
+  margin: 12px;
+  height: 360px;
+      width: 355px;
+
+}
+
+.fifth{
+    background-image: url(../images/21.jpeg);
+  background-size: cover;
+  margin: 12px;
+  height: 360px;
+      width: 355px;
+
+}
+
+.link-page {
+
+    text-align: center;
+    border-radius: 20px;
+    float: left;
+    width: 23%;
+
+}
+
+.one-bg{
+    background-color: #6CB4EE;
+    opacity: 0;
+    width:100%;
+    height: 360px;
+    text-align: center;
+    padding-top: 90px;
+    color: black;
+    font-family: 'Raleway', sans-serif;
+    border-radius: 20px;
+
+}
+
+.one-bg:hover{
+    opacity: 0.8;
+
+
+}
+
+.one-bg i{
+  color: black;
+}
+.func{
+  padding: 14px;
+  position: absolute;
+  margin-top: 37px;
+  margin-right: 30px;
+  color: white;
+  font-size: 30px;
+  background-color: darkgrey;
+  opacity: 0.8;
+  border-radius: 10px;
+}
+.main-txt{
+  margin-top: 369px;
+  margin-right: 257px;
+  text-align: right;
+  background-color: dodgerblue;
+  width: 60%;
+  border-radius: 21px;
+  /* opacity: 0.6; */
+  padding: 10px;
+  color: white;
+  transform: scaleX(-1);
+}
+.clear{
+  clear: both;
+}
+
+#hosp-main{
+  padding: 6% 5% 0;
+  background-color: aliceblue;
+}
+.benef-opt{
+  padding-top: 20px;
+  font-size: 18px;
+ color: #666 !important;
+  padding-right: 70px;
+
+}
+.hos-text i{
+  color: #005176;
+}
+
+
+
+/* ########################## end PAGE FOUR Solutions ELARCHIVE#################### */
+
+/* Start Benefit Page */
+
+
+#benefit{
+
+  margin: 10% 0;
+
+
+}
+
+#benefit .search{
+  background-image: url(../images/benf.jpeg);
+  background-size: cover;
+  height: 50vh;
+  width: auto;
+  position: relative;
+}
+
+#benefit h2{
+  opacity: 0.9;
+    background-color: orange;
+  color: white;
+  
+    position: absolute;
+    top: 260px;
+    padding: 30px;
+    border-radius: 0 0 0 2pc;
+    right: 30px;
+  }
+
+#benef-features{
+background-color: aliceblue;
+    margin-top: -145px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+  }
+  #benef-features .frame {
+    padding-top: 1%;
+    padding-left: 10%;
+    padding-right:0 !important ;
+  
+  }
+#benef-features i{
+  color: #005176;
+}
+.benef-opt{
+  padding-top: 20px;
+  font-size: 18px;
+      color: #666 !important;
+
+      padding-right: 70px;
+
+}
+
+
+.benef-opt p {
+
+  padding-right: 80px;
+  color: #666;
+  font-size: 21px;
+}
+
+.benef-opt h4 {
+  color: #666;
+
+}
+
+.benef-opt i {
+  display: flex;
+ float: right;
+  padding-right: 20px;
+  padding-left: 26px;
+}
+
+
+
+/* END Benefit Page */
+
+/* #####################################*/
+/* contactUs */
+
+
+
+.classic-title {
+  margin-bottom: 16px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #eee;
+  font-weight: 300;
+}
+
+.classic-title span {
+  padding-bottom: 0px;
+}
+
+input[type="submit"] {
+  background-color: #00afd1;
+}
+
+
+#contact-form textarea, #respond input[type="text"], #respond textarea, .email {
+  color: #666fb5;
+  font-size: 13px;
+  font-family: 'Open Sans', sans-serif;
+  border: 1px solid #eee;
+  border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -o-border-radius: 2px;
+  outline: none;
+  width: 100%;
+  padding: 7px 14px;
+  display: block;
+  margin-bottom: 10px;
+  transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+}
+
+.contact-form input, .contact-form select {
+  width: 100% !important;
+}
+
+input[type="submit"] {
+  border: none;
+}
+.formtxtbox{
+  padding: 7px 14px;
+
+}
+.space {
+  margin-top: 15px !important;
+}
+
+.mapholder{
+margin-top: 120px;
+}
+.classic-title span {
+
+border-bottom: 1px solid #00afd1 !important;
+padding-bottom: 8px!important;
+}
+#content i {
+  padding-right: 0px;
+  padding-left: 10px;
+}
+#content ul{
+list-style: none;
+}
+
+
+
+.classic-title {
+  margin-bottom: 16px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #eee;
+  font-weight: 300;
+}
+/* ############END Contact#########*/
+
+
+/* START footer */
+
+#footer{
+    text-align: center;
+    font-size: 10px;
+    color: var(--greyxColor);
+    margin-top: 30px;
+}
+
+/* END footer */
+
+/* Loader and back-to-top  */
+.loader-wrapper {
+    --line-width: 5px;
+    --curtain-color: aliceblue;
+    --outer-line-color: #a8dadc;
+    --middle-line-color: #457b9d;
+    --inner-line-color: #1d3557;
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    z-index:1000;
+  }
+  
+  .loader {
+    display:block;
+    position: relative;
+    top:50%;
+    right:45%;
+    /* transform: translate(-50%, -50%); */
+    width:150px;
+    height:150px;
+    margin:-75px 0 0 -75px;
+    border:var(--line-width) solid transparent;
+    border-top-color: var(--outer-line-color);
+    border-radius:100%;
+    -webkit-animation: spin 2s linear infinite;
+            animation: spin 2s linear infinite;
+    z-index:1001;
+  }
+  
+  .loader::before {
+    content:"";
+    position: absolute;
+    top:4px;
+    left:4px;
+    right:4px;
+    bottom:4px;
+    border:var(--line-width) solid transparent;
+    border-top-color: var(--inner-line-color);
+    border-radius:100%;
+    -webkit-animation: spin 3s linear infinite;
+            animation: spin 3s linear infinite;
+  }
+  
+  .loader::after {
+    content:"";
+    position: absolute;
+    top:14px;
+    left:14px;
+    right:14px;
+    bottom:14px;
+    border:var(--line-width) solid transparent;
+    border-top-color: var(--middle-line-color);
+    border-radius:100%;
+    -webkit-animation: spin 1.5s linear infinite;
+            animation: spin 1.5s linear infinite;
+  }
+  
+  @-webkit-keyframes spin {
+    0%   {
+      -webkit-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+            transform: rotate(0deg);
+    }
+    100% {
+      -webkit-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+            transform: rotate(360deg);
+    }
+  }
+  @keyframes spin {
+    0%   {
+      -webkit-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+            transform: rotate(0deg);
+    }
+    100% {
+      -webkit-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+            transform: rotate(360deg);
+    }
+  }
+  
+  .loader-wrapper .loader-section {
+    position:fixed;
+    top:0;
+    background:var(--curtain-color);
+    width:51%;
+    height:100%;
+    z-index:1000;
+  }
+  
+  .loader-wrapper .loader-section.section-left {
+    left:0
+  }
+  .loader-wrapper .loader-section.section-right {
+    right:0;
+  }
+  
+  /* Loaded Styles */
+  .loaded .loader-wrapper .loader-section.section-left {
+    transform: translateX(-100%);
+    transition: all 0.7s 0.3s cubic-bezier(0.645,0.045,0.355,1.000);
+  }
+  .loaded .loader-wrapper .loader-section.section-right {
+    transform: translateX(100%);
+    transition: all 0.7s 0.3s cubic-bezier(0.645,0.045,0.355,1.000);
+  }
+  .loaded .loader {
+    opacity: 0;
+    transition: all 0.3s ease-out;
+  }
+  .loaded .loader-wrapper {
+    visibility: hidden;
+    transform:translateY(-100%);
+    transition: all .3s 1s ease-out;
+  }
+  
+  
+  
+  #back-to-top{
+    background: #0066b2;
+    height: 40px;
+    width: 40px;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    border-radius: 50%;
+    border: 0px;
+    display: none;
+    
+    }
+  #back-to-top:hover{
+      background-color:#0076CE ;
+    }
+    
+  
+/* Media Screen changes for less than 100px*/
+
+@media only screen and (max-width: 1000px) {
+   
+    #threeIcons .iconSection{
+        /* flex-direction: column; */
+        padding:0 !important ;
+    }
+    #easy-web .o_stripe {
+        top: 45px;
+    }
+
+    #easy-web {
+        margin-top: 7%;
+    }
+    #responsive-web .resp-img img{
+       
+        margin-top: 0;
+    }
+    /* Why Elarchive small page */
+
+    #Reasons .reasonSection .reas-txt{
+      width: fit-content;
+      background-color: rgba(18, 69, 94, .5);
+      align-items: center;
+      padding-left: 8%;     
+    }
+    /* Features */
+    #resons-features {
+      padding: 8% 10%;
+    } 
+    #usersTag {
+      padding-top: 70px;
+      }
+
+
+  #finding .feat-content h2{
+    margin-top: 60px !important;
+  }
+}
+
+/* START Media Exceptioal for Features */
+@media   (max-width:1200px) {
+  #features .grid-features {
+    margin: -150px 0px 80px;
+    grid-template-columns: repeat(2,1fr);
+
+  }
+  .link-page {
+    width: 45%;
+  }
+  .grid-two{
+    margin-left:  3%;
+    margin-right:  3%;
+
+  }
+}
+
+@media   (max-width:700px) {
+  #features .grid-features {
+    margin: -150px 0px 80px;
+    grid-template-columns: repeat(1,1fr);
+
+  }
+
+}
+/* END Media Exceptioal for Features */
+
+/* Media for Header FONT */
+@media (min-width:600px) and (max-width:900px) {
+   
+    #Layout .layoutSection h1{
+        font-size: x-large;
+    } 
+    
+    #benef-features{
+      margin-top: -130px;
+    }
+   
+
+}
+@media screen and (max-width:599px)  {
+    #Layout .layoutSection h1{
+        font-size: larger;
+    } 
+    #specification .spec-img img{
+      width: 70%;
+      text-align: center;
+      
+    }
+    #specification .spec-txt p{
+      font-size: 1.3rem;
+      padding: 0 3%;
+      
+    }
+    #features .grid-features {
+      margin: -150px 0px 80px;
+      grid-template-columns: repeat(1,1fr);
+  
+    }
+
+    .link-page {
+      width: 100%;
+    }
+    
+    .grid-two{
+      margin-left:  3%;
+      margin-right:  3%;
+      margin-top: -100px;
+    }
+
+    #solu{
+      padding: 20% 6%;
+    }
+    #benef-features{
+      margin-top: -100px;
+    }
+   
+}
+
+

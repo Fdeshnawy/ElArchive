@@ -1,0 +1,165 @@
+/* Header navigate bar direction */
+header nav .nav-dir{
+    display: flex;
+    flex-direction: row;
+
+}
+/* Register navigate bar direction */
+#register{
+margin: 0% -2%;
+width: 100%;
+display: flex;
+flex-direction: row-reverse;
+
+}
+/* Header */
+.layoutSection h1{
+    font-size: 2.1rem;
+}
+/* Easy web text */
+.easy-txt {
+    padding-top: 80px;
+}
+.resp-text{
+    margin-top: 6px;
+}
+
+
+/* Why Elarchive page */
+#Reasons .reasonSection {
+  transform: scaleX(-1) !important;
+}
+#Reasons .reasonSection .reas-txt{
+  width: auto;
+  transform: scaleX(-1) !important;
+  padding-left: 8%;
+}
+
+#Reasons .reasonSection .reas-txt p{
+  width: 600px;
+}
+
+.spec-img {
+  transform: scaleX(1) !important;
+}
+
+.opt-icon i {
+  display: flex;
+  float: left;
+  padding-left: 20px;
+  padding-right: 26px;
+  color: white;
+}
+
+.frame {
+  padding-top: 1%;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.opt-icon p {
+ 
+  padding-left: 80px;
+ 
+}
+
+/* Solution Page */
+.func{
+  margin-left: 30px;
+}
+
+@media only screen and (max-width: 1000px) {
+
+#Reasons .reasonSection .reas-txt p{
+  padding-right: 8% ;
+  padding-left: 0;
+  align-items: center;
+  width: auto;
+}
+#Reasons .reasonSection .reas-txt{
+ 
+  width:auto;
+}
+}
+/* Loader */
+/* Loader Styles start here */
+
+  .loader {
+    display:block;
+    position: relative;
+    top:50%;
+    left:50%;
+    width:150px;
+    height:150px;
+    margin:-75px 0 0 -75px;
+    border:var(--line-width) solid transparent;
+    border-top-color: var(--outer-line-color);
+    border-radius:100%;
+    -webkit-animation: spin 2s linear infinite;
+            animation: spin 2s linear infinite;
+    z-index:1001;
+  }
+  
+  .loader-wrapper .loader-section {
+    position:fixed;
+    top:0;
+    background:var(--curtain-color);
+    width:51%;
+    height:100%;
+    z-index:1000;
+  }
+  
+      /* Features Papge  */
+
+    #features .features-temp{
+      padding: 30px !important;
+    }
+
+    .unordered-list 
+    {
+      padding-left: 88px;
+    }
+    .feat-content p {
+      padding-left: 63px;
+    }
+    .feat-content h4 {
+      padding-left: 63px;
+      }
+
+      .feat-content i {
+        display: flex;
+        float: left;
+      }
+
+      /* Benefits */
+      #benefit h2{
+        border-radius: 0 0 2pc 0;
+        left: 30px;
+        width: fit-content;
+      }
+      .benef-opt i {
+        float: left;
+      }
+      #benef-features .frame {
+        padding-left: 0 !important;
+      }
+      .benef-opt p {
+
+        padding-left: 80px;
+    
+      }
+
+
+/* #####################################*/
+/* contactUs */
+
+
+#content i {
+  padding-left: 0px;
+  padding-right: 10px;
+}
+
+
+
+
+/* #####################3 */
